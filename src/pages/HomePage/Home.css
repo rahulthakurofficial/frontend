@@ -1,0 +1,413 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Welcome Section */
+.welcome-section {
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.enroll-btn {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enroll-btn:hover {
+  background-color: #e55b4d;
+}
+
+/* About Section */
+.about-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: #fffaf0;
+}
+
+.about-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #ff6f61;
+  margin-bottom: 15px;
+}
+
+.about-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Location Section */
+.location-area {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.map-frame {
+  margin-top: 20px;
+  border: 0;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-area {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content {
+    margin-bottom: 20px;
+  }
+}
+
+/* Mission & Vision Section */
+.mission-vision {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.mission-vision-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.mission,
+.vision {
+  width: 45%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission h4,
+.vision h4 {
+  font-size: 24px;
+  color: #ff6f61;
+  margin-bottom: 15px;
+}
+
+.mission p,
+.vision p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .about-area {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content {
+    margin-bottom: 20px;
+  }
+
+  .mission-vision-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mission,
+  .vision {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+ .team {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-member {
+  width: 200px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-member h3 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #ff6f61;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #555;
+} 
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 480px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+} 
+
+.core-values {
+  padding: 10px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.values {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.value-item {
+  width: 400px;
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.value-item img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.value-item h3 {
+  font-size: 1.2rem;
+  color: #ff6f61;
+}
+
+.value-item p {
+  font-size: 1rem;
+  color: #555;
+}
+/* Discount Offer Styles */
+.discount-offer {
+  background-color: #f4f4f9;
+  padding: 40px 20px;
+  text-align: center;
+  margin: 40px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.discount-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.offer-title {
+  font-size: 2rem;
+  color: #ff6600;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.offer-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.enroll-btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enroll-btn:hover {
+  background-color: #ff8c00;
+}
+.testimonials {
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.testimonial-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.testimonial-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  min-width: 280px;
+  text-align: left;
+}
+
+.testimonial-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.testimonial-role {
+  font-size: 1rem;
+  color: #777;
+}
+.discount-offer {
+  text-align: center;
+  padding: 2rem;
+}
+
+.enroll-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.discount-form {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 0.5rem;
+  display: inline-block;
+  text-align: left;
+}
+
+.discount-form input,
+.discount-form select {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+
+.discount-form button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.discount-form {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center; 
+}
+
+.discount-form input,
+.discount-form select {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  width: 90%; 
+  max-width: 300px; 
+  border: 1px solid #ddd;
+  border-radius: 0.3rem;
+}
+
+.discount-form button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  margin-top: 1rem; 
+  text-align: center;
+}

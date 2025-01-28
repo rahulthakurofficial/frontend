@@ -1,0 +1,29 @@
+.gallery-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .gallery-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap; 
+  }
+  
+  .gallery-item {
+    width: calc(25% - 15px); 
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05); 
+  }
+  
