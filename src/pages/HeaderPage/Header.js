@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import "./Header.css"; 
-import letzstepin from "../../assets/letzstepin.jpg"; 
+import letzstepin from "../../assets/gigglezz-logo.png"; 
 
 const Header = () => {
   return (

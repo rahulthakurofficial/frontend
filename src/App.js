@@ -6,7 +6,7 @@ import Service from './pages/ServicePage/Service';
 import Gallery from './pages/GalleryPage/Gallery';
 import Contact from './pages/ContactPage/Contact';
 import Footer from './pages/FooterPage/Footer';
-import GigglezzChatbot from "./pages/Chatbot/GigglezzChatbot";
+//import GigglezzChatbot from "./pages/Chatbot/GigglezzChatbot";
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/Contact" element={<Contact />} /> 
         <Route path="/Footer" element={<Footer/>}/>
       </Routes>
-      <GigglezzChatbot />
+      {/* <GigglezzChatbot /> */}
       <Footer />
     </Router>
   );
